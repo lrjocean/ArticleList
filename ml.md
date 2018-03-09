@@ -3,9 +3,9 @@
 
 <body>
 
-<h4>经典模型</h4>
+<h4>机器学习经典模型</h4>
 
-<table border="3">
+<table border="2">
 
 <tr>
   <td>ID</td>
