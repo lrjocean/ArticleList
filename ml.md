@@ -10,7 +10,7 @@
 
 <h4>这个表格有一个标题，以及粗边框：</h4>
 
-<table border="6">
+<table border="24">
 <caption>我的标题</caption>
 <tr>
   <td>100</td>
