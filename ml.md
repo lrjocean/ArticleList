@@ -35,7 +35,7 @@
 
 <tr>
   <td>3</td>
-  <td>ffm</td>
+  <td>(ffm)Field-aware Factorization Machines for CTR Prediction</td>
   <td>https://www.csie.ntu.edu.tw/~cjlin/papers/ffm.pdf</td>
 </tr>
 
@@ -51,7 +51,7 @@
 
 <tr>
   <td>5</td>
-  <td>gbdt+lr(facebook)</td>
+  <td>(gbdt+lr)Practical Lessons from Predicting Clicks on Ads at Facebook</td>
   <td>http://quinonero.net/Publications/predicting-clicks-facebook.pdf</td>
 </tr>
 
