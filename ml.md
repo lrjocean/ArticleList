@@ -8,13 +8,21 @@
 
 <body>
 
-<table border="1">
+<h4>这个表格有一个标题，以及粗边框：</h4>
+
+<table border="6">
+<caption>我的标题</caption>
 <tr>
-  <td>Some text</td>
-  <td>Some text</td>
+  <td>100</td>
+  <td>200</td>
+  <td>300</td>
 </tr>
 <tr>
-  <td></td>
-  <td>Some text</td>
+  <td>400</td>
+  <td>500</td>
+  <td>600</td>
 </tr>
 </table>
+
+</body>
+</html>
