@@ -59,7 +59,7 @@
   
 <tr>
   <td>1</td>
-  <td><a target="_blank" href="https://arxiv.org/pdf/1310.4546.pdf" >Distributed Representations of Words and Phrases and their Compositionality(fm)</a></td>
+  <td><a target="_blank" href="https://arxiv.org/pdf/1310.4546.pdf" >Distributed Representations of Words and Phrases and their Compositionality(word2vec)</a></td>
 </tr>
 </table>
 
