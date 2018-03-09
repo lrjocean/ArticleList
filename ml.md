@@ -17,6 +17,7 @@
   <td>1</td>
   <td>Factorization Machines(fm)</td>
   <td>http://www.algo.uni-konstanz.de/members/rendle/pdf/Rendle2010FM.pdf</td>
+  <td><a target="_blank" href="http://www.algo.uni-konstanz.de/members/rendle/pdf/Rendle2010FM.pdf" >Factorization Machines(fm)</a></td>
 </tr>
 
 
@@ -24,6 +25,7 @@
   <td>2</td>
   <td>Factorization Machines with libfm(fm 优化)</td>
   <td>https://www.csie.ntu.edu.tw/~b97053/paper/Factorization%20Machines%20with%20libFM.pdf</td>
+  <td><a target="_blank" href="https://www.csie.ntu.edu.tw/~b97053/paper/Factorization%20Machines%20with%20libFM.pdf" >Factorization Machines with libfm(fm 优化)</a></td>
 </tr>
 
 
@@ -32,26 +34,20 @@
   <td>3</td>
   <td>Field-aware Factorization Machines for CTR Prediction(ffm)</td>
   <td>https://www.csie.ntu.edu.tw/~cjlin/papers/ffm.pdf</td>
+  <td><a target="_blank" href="https://www.csie.ntu.edu.tw/~cjlin/papers/ffm.pdf" >Field-aware Factorization Machines for CTR Prediction(ffm)</a></td>
 </tr>
 
 
 
 <tr>
   <td>4</td>
-  <td>XGBoost: A Scalable Tree Boosting System</td>
-  <td>http://www.kdd.org/kdd2016/papers/files/rfp0697-chenAemb.pdf</td>
+  <td><a target="_blank" href="http://www.kdd.org/kdd2016/papers/files/rfp0697-chenAemb.pdf" >XGBoost: A Scalable Tree Boosting System</a></td>
 </tr>
 
 
 
 <tr>
   <td>5</td>
-  <td>Practical Lessons from Predicting Clicks on Ads at Facebook(gbdt+lr)</td>
-  <td>http://quinonero.net/Publications/predicting-clicks-facebook.pdf</td>
-</tr>
-
-<tr>
-  <td>6</td>
   <td><a target="_blank" href="https://statweb.stanford.edu/~jhf/ftp/trebst.pdf" >Practical Lessons from Predicting Clicks on Ads at Facebook(gbdt+lr)</a> </td>
 </tr>
 
