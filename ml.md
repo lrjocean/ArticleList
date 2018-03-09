@@ -52,7 +52,7 @@
 
 <tr>
   <td>6</td>
-  <td><a href="https://statweb.stanford.edu/~jhf/ftp/trebst.pdf" target="_blank">Practical Lessons from Predicting Clicks on Ads at Facebook(gbdt+lr)</a> </td>
+  <td><a target="_blank" href="https://statweb.stanford.edu/~jhf/ftp/trebst.pdf" >Practical Lessons from Predicting Clicks on Ads at Facebook(gbdt+lr)</a> </td>
 </tr>
 
 
