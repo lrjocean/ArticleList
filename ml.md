@@ -6,7 +6,7 @@
 <h4>经典模型</h4>
 
 <table border="3">
-<caption>我的标题</caption>
+
 <tr>
   <td>ID</td>
   <td>标题</td>
