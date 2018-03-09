@@ -3,3 +3,18 @@
 <p>3 FFM: https://www.csie.ntu.edu.tw/~cjlin/papers/ffm.pdf</p>
 <p>4 xgboost: http://www.kdd.org/kdd2016/papers/files/rfp0697-chenAemb.pdf</p>
 <p>5 gbdt+lr(facebook):Practical Lessons from Predicting Clicks on Ads at Facebook</br>http://quinonero.net/Publications/predicting-clicks-facebook.pdf</p>
+
+<html>
+
+<body>
+
+<table border="1">
+<tr>
+  <td>Some text</td>
+  <td>Some text</td>
+</tr>
+<tr>
+  <td></td>
+  <td>Some text</td>
+</tr>
+</table>
