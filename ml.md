@@ -9,7 +9,7 @@
 
 <tr>
   <td>ID</td>
-  <td>标题</td>
+  <td>title</td>
  
 </tr>
   
@@ -48,6 +48,19 @@
 </table>
 
 
+
+<h4>NLP</h4>
+<tr>
+  <td>ID</td>
+  <td>title</td>
+ 
+</tr>
+  
+<tr>
+  <td>1</td>
+  <td><a target="_blank" href="https://arxiv.org/pdf/1310.4546.pdf" >Distributed Representations of Words and Phrases and their Compositionality(fm)</a></td>
+</tr>
+</table>
 
 
 </body>
