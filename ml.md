@@ -50,6 +50,12 @@
   <td>http://quinonero.net/Publications/predicting-clicks-facebook.pdf</td>
 </tr>
 
+<tr>
+  <td>6</td>
+  <td>Practical Lessons from Predicting Clicks on Ads at Facebook(gbdt+lr)</td>
+  <td><a href="https://statweb.stanford.edu/~jhf/ftp/trebst.pdf">Practical Lessons from Predicting Clicks on Ads at Facebook(gbdt+lr)</a> </td><td>https://statweb.stanford.edu/~jhf/ftp/trebst.pdf</td>
+</tr>
+
 
 </table>
 </body>
