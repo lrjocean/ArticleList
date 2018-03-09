@@ -50,6 +50,7 @@
 
 
 <h4>NLP</h4>
+<table>
 <tr>
   <td>ID</td>
   <td>title</td>
