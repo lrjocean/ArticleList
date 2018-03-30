@@ -60,7 +60,7 @@
 <tr>
   <td>1</td>
   <td><a target="_blank" href="https://static.googleusercontent.com/media/research.google.com/zh-CN//pubs/archive/45530.pdf" >Deep Neural Networks for YouTube Recommendations</a>
-  <a target="_blank" href="https://zhuanlan.zhihu.com/p/25343518" >用深度学习（DNN）构建推荐系统 - Deep Neural Networks for YouTube Recommendations论文精读</a></td>
+    <br><a target="_blank" href="https://zhuanlan.zhihu.com/p/25343518" >用深度学习（DNN）构建推荐系统 - Deep Neural Networks for YouTube Recommendations论文精读</a></td>
 </tr>
 </table>
 
