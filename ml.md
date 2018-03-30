@@ -49,8 +49,8 @@
 <tr>
   <td>6</td>
   <td>
-    <a target="_blank" href="https://static.googleusercontent.com/media/research.google.com/zh-CN//pubs/archive/37013.pdf" >Follow-the-Regularized-Leader and Mirror Descent: Equivalence Theorems and L1 Regularization(ftrl)</a><br>
-    <a target="_blank" href="https://static.googleusercontent.com/media/research.google.com/zh-CN//pubs/archive/41159.pdf" >Ad Click Prediction: a View from the Trenches(ftrl工程实现)</a> </td>
+  <a target="_blank" href="https://static.googleusercontent.com/media/research.google.com/zh-CN//pubs/archive/37013.pdf" >Follow-the-Regularized-Leader and Mirror Descent: Equivalence Theorems and L1 Regularization(ftrl)</a><br>
+  <a target="_blank" href="https://static.googleusercontent.com/media/research.google.com/zh-CN//pubs/archive/41159.pdf" >Ad Click Prediction: a View from the Trenches(ftrl工程实现)</a> </td>
 </tr>
 
 </table>
