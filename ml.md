@@ -49,6 +49,23 @@
 
 
 
+<h4>推荐系统</h4>
+<table>
+<tr>
+  <td>ID</td>
+  <td>title</td>
+ 
+</tr>
+  
+<tr>
+  <td>1</td>
+  <td><a target="_blank" href="https://static.googleusercontent.com/media/research.google.com/zh-CN//pubs/archive/45530.pdf" >Deep Neural Networks for YouTube Recommendations</a></td>
+</tr>
+</table>
+
+
+
+
 <h4>NLP</h4>
 <table>
 <tr>
