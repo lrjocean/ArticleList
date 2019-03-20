@@ -4,8 +4,8 @@
     - 1.3 [nmslib](https://github.com/nmslib/nmslib.git) 
     - 1.4 [LSH]()
 - # 2. 优秀C语言代码
-- 1. redis 
-- 2. lua https://github.com/LuaDist/lua
-- 3. sqlite https://github.com/mackyle/sqlite/tree/master/src
-- 4. glibc https://github.com/lattera/glibc
-- 5. quake3 https://github.com/raspberrypi/quake3    
+    - 2.1 [redis](https://github.com/antirez/redis)
+    - 2.2 [lua](https://github.com/LuaDist/lua)
+    - 2.3 [sqlite](https://github.com/mackyle/sqlite/tree/master/src)
+    - 2.4 [glibc](https://github.com/lattera/glibc)
+    - 2.5 [quake3](https://github.com/raspberrypi/quake3)
