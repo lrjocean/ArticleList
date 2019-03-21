@@ -42,12 +42,12 @@ $$ p(X) = \sum_{Z} {p(X|Z)p(Z)} $$
 
 事实上，在论文《Auto-Encoding Variational Bayes》的应用部分，也特别强调了这一点：
 
-```
-In this case, we can let the
-variational approximate posterior be a multivariate Gaussian with a diagonal covariance structure:
-$$ \log q_\phi  (z|x^{(i)}) = \log \mathbb{N}(z;\mu^{(i)},\sigma^{2(i)}I) $$
-（注：这里是直接摘录原论文，本文所用的符号跟原论文不尽一致，望读者不会混淆。
-```
+
+>*In this case, we can let the*
+>*variational approximate posterior be a multivariate Gaussian with a diagonal covariance structure:*
+> *$$ \log q_\phi  (z|x^{(i)}) = \log \mathbb{N}(z;\mu^{(i)},\sigma^{2(i)}I) $$*
+>*（注：这里是直接摘录原论文，本文所用的符号跟原论文不尽一致，望读者不会混淆。*
+
 
 
 论文中的式(9)是实现整个模型的关键，不知道为什么很多教程在介绍VAE时都没有把它凸显出来。尽管论文也提到p(Z)是标准正态分布，然而那其实并不是本质重要的。
@@ -95,13 +95,13 @@ $$\mathrm{L_{\sigma^2}} = \frac{1}{2} \sum_{i=1}^{d}\left(\sigma^2_{(i)} - \log 
 推导
 由于我们考虑的是各分量独立的多元正态分布，因此只需要推导一元正态分布的情形即可，根据定义我们可以写出
 
-$$KL(N(\mu,\sigma^2)\parallel \mathbb{N}(0,1))$$
+>*$$KL(N(\mu,\sigma^2)\parallel \mathbb{N}(0,1))$$*
 
-$$=\int \frac{1}{\sqrt{2\pi \sigma^2}} e^{-(x-\mu)^2/2 \sigma^2 }\left(\log\frac{e^{ -(x-\mu)^2/2 \sigma^2 }/\sqrt{2\pi \sigma^2} }{e^{-x^2/2}/ \sqrt{2\pi }} \right) dx $$
+>*$$=\int \frac{1}{\sqrt{2\pi \sigma^2}} e^{-(x-\mu)^2/2 \sigma^2 }\left(\log\frac{e^{ -(x-\mu)^2/2 \sigma^2 }/\sqrt{2\pi \sigma^2} }{e^{-x^2/2}/ \sqrt{2\pi }} \right) dx $$*
 
-$$=\int \frac{1}{\sqrt{2\pi \sigma^2}} e^{-(x-\mu)^2/2 \sigma^2 }log\left \{    \frac{1}{\sigma^2} e^{\frac{1}{2}  \left [ x^2-\left ( x- \mu \right )^2/ \sigma^2\right ] }    \right \} dx$$
+>*$$=\int \frac{1}{\sqrt{2\pi \sigma^2}} e^{-(x-\mu)^2/2 \sigma^2 }log\left \{    \frac{1}{\sigma^2} e^{\frac{1}{2}  \left [ x^2-\left ( x- \mu \right )^2/ \sigma^2\right ] }    \right \} dx$$*
 
-$$=\frac{1}{2}  \int \frac{1}{\sqrt{2\pi \sigma^2}} e^{-(x-\mu)^2/2 \sigma^2 }\left [ -\log \sigma^2 + x^2 - \left ( x-\mu \right )^2/\sigma^2 \right ]dx$$
+>*$$=\frac{1}{2}  \int \frac{1}{\sqrt{2\pi \sigma^2}} e^{-(x-\mu)^2/2 \sigma^2 }\left [ -\log \sigma^2 + x^2 - \left ( x-\mu \right )^2/\sigma^2 \right ]dx$$*
 
 
 整个结果分为三项积分，第一项实际上就是$$−\log \sigma^2$$乘以概率密度的积分（也就是1），所以结果是$$−\log \sigma^2$$；第二项实际是正态分布的二阶矩，熟悉正态分布的朋友应该都清楚正态分布的二阶矩为$$\mu^2+\sigma^2$$；而根据定义，第三项实际上就是“-方差除以方差=-1”。所以总结果就是
