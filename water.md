@@ -3,3 +3,7 @@
     - 1.2 欧式距离衡量空间点的直线距离，余弦距离衡量点在空间的方向差异
     - 1.3 归一化后，计算欧氏距离，等价于余弦值
     - 1.4 稀疏数据使用余弦距离
+
+- # 2. sgd 和 L-BFGS
+    - 2.1 Logistic regression是convex的，神经网络是non-convex的。SGD在两种情况下都能保证收敛（虽然在后一种只能保证收敛到一个stationary point，并不一定是局部最优值点）。但是，L-BFGS在non-convex下是有可能不收敛的
+
