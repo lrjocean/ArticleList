@@ -6,4 +6,5 @@
 
 - # 2. sgd 和 L-BFGS
     - 2.1 Logistic regression是convex的，神经网络是non-convex的。SGD在两种情况下都能保证收敛（虽然在后一种只能保证收敛到一个stationary point，并不一定是局部最优值点）。但是，L-BFGS在non-convex下是有可能不收敛的
+    - 2.2 L-BFGS 收敛速度虽然很快,很难调参
 
